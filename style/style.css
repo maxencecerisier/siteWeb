@@ -1,0 +1,97 @@
+body{
+  background-color: #EDEDED;
+}
+
+header img {
+  border-radius: 30px;
+
+  border: 2px solid black;
+}
+
+header h1 {
+  margin-bottom: 2em;
+}
+
+div h1 {
+  margin: 2em;
+}
+
+div img {
+  margin-bottom: 2em;
+}
+
+hr.hr1 {
+  height: 2em;
+  background: linear-gradient(90.45deg, #34C900 19.8%, #AAE600 83.98%);
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+hr.hr2 {
+  height: 2em;
+  background: linear-gradient(91.9deg, #00C7D3 28.24%, #0066FF 64.6%);
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+hr.hr3 {
+  height: 2em;
+  background: linear-gradient(90.63deg, #0061D3 49.01%, #FF00A8 115.73%);
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+hr.hr4 {
+  height: 2em;
+  background: linear-gradient(90.29deg, #CC0087 -0.73%, #FF7A00 100.57%);
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+#bienvenue {
+  color: #2D4F62;
+}
+
+.formation:hover {
+  color: black;
+}
+.formation {
+  color: black;
+}
+
+#competences > div > div > button{
+  background: linear-gradient(180deg, #00C3CF 0%, #0066FF 100%);
+  font-size: 1.5em;
+  color: white;
+  padding: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  margin-bottom: 5em;
+  border: none;
+  height: 5em;
+}
+
+footer{
+  background-color: #34465D;
+  color: #ffffff;
+  margin-top: 10em;
+  padding-top: 10px;
+}
+
+footer a{
+  color: #6EF0FF;
+}
+
+footer p{
+  margin: 0;
+}
+
+#presentation {
+  border: black 2px solid;
+
+  border-radius: 30px;
+
+  padding: 1em;
+
+  font-weight: bold;
+}

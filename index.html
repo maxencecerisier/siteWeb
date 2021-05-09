@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Site Cerisier Maxence</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap/css/bootstrap.css" />
+    <script src="style/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="style/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header class="container">
+        <div class="row justify-content-center">
+            <h1>CERISIER Maxence</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <div>
+                    <img src="media/PhotoProfil.JPG" width="170px">
+                </div> 
+            </div>
+            <div id=presentation class="offset-lg-1 col-lg-3">
+                <p>18 ans<br>
+                maxence.cerisier56@gmail.com<br>
+                06 83 60 99 78<br>
+                Permis B<br>
+                Anglais B1/B2<br>
+                Espagnol A2<br>
+                Visionnez mon CV <a href="media/CV1.pdf" download="CV.pdf">ici</a>
+                </p>
+            </div>
+            <div class="offset-lg-1 col-lg-5">
+                <h2 id="bienvenue">Bienvenue sur mon site personnel.</h2>
+                <p>Actuellement en 1ère année de DUT Informatique, je recherche actuellement une alternance pour la 2ème année.
+                    Les domaines qui m’intéressent sont la cyber sécurité, le développement logiciel et le développement web.
+                    J’ai déjà appris beaucoup dans de nombreux domaine de l’informatique. Les compétences acquises sont détaillées <a href="#competences">ici</a>.
+                </p>
+            </div>
+        </div>
+    </header>
+
+
+    <hr class="hr1">
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1>Formation</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <h2><a href="https://iut-lannion.univ-rennes1.fr/" class="formation" target="_blank">IUT Lannion</a></h2>
+                <p>
+                    DUT Informatique<br>
+                    En cours
+                </p>
+            </div>
+            <div class="col-lg-5">
+                <img src="media/IUT.jpg">
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <h2><a href="http://www.lyceevictorhugo-hennebont.com/" class="formation" target="_blank">Lycée Victor Hugo Hennebont</a></h2>
+                <p>
+                    Baccalauréat Scientifiques
+                    Option Informatique et Sciences du Numérique<br>
+                    2018-2020
+                </p>
+            </div>
+            <div class="col-lg-5">
+                <img src="media/lycee.jpg">
+            </div>
+        </div>
+    </div>
+
+    <hr class="hr2">
+
+    <div class="container">
+        <div id="competences">
+            <div class="row justify-content-center">
+                <h1>Compétences techniques</h1>
+            </div>
+            <div class="row justify-content-around">
+                <div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popup1">Développement<br> web</button>
+
+                    <div id="popup1" class="modal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Langage C</li>
+                                        <li>JavaScript</li>
+                                        <li>Java</li>
+                                        <li>Python</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popup2">Programmation</button>
+
+                    <div id="popup2" class="modal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Langages HTML/CSS</li>
+                                        <li>Framework Bootstrap</li>
+                                        <li>Bases du CMS Wordpress</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popup3">Base de <br>données</button>
+
+                    <div id="popup3" class="modal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>PostgreSQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popup4">Gestion de <br>projet</button>
+
+                    <div id="popup4" class="modal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Git</li>
+                                        <li>GitLab</li>
+                                        <li>GitHub</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popup5">Système</button>
+
+                    <div id="popup5" class="modal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Linux</li>
+                                        <li>Bash</li>
+                                        <li>Awk & Sed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popup6">Conception</button>
+
+                    <div id="popup6" class="modal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Maquettage</li>
+                                        <li>UML</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hr3">
+    <div class="container">
+        <div>
+            <h1>Mes Projets Réalisés</h1>
+            <div class="jumbotron">
+                <h3>Java (En cours...)</h3>
+                <p>Réalisé au semestre 2 de mon cursus à l’IUT de Lannion.
+                    Le projet consiste à réaliser un logiciel/jeu de notre choix, nous avons décidé de créer un logiciel de gestion de restaurant.</p>
+            </div>
+            <div class="jumbotron">
+                <h3>Site web (2021)</h3>
+                <p>Réalisé au semestre 1 de mon cursus à l’IUT de Lannion.
+                    Le projet consistait à réaliser un premie vrai site web réalisé en groupe.
+                    Les contraintes techniques furent de réaliser ce site sans JavaScript et avec la librairie CSS Bootstrap.</p>
+                
+            </div>
+            <div class="jumbotron">
+                <h3>Sudoku (2020)</h3>
+                <p>Réalisé pendant l’option ISN lors de mon Bac S.
+                    Le projet consistait à réaliser ce qu’on voulait, en groupe. Nous avions décidé de réaliser un sudoku en JavaScript avec la librairie P5.js.
+                    Le projet n’a pas abouti à cause du confinement mais cela m’a permis d’apprendre les bases de ce langage et découvrir le monde de la programmation.</p>
+            </div>
+        </div>
+        <!--</div>
+        <hr class="hr4">
+        <div class="container">
+        <div>
+            <h3>Mes Centres d'Intérêts</h3>
+        </div>-->
+    </div>
+
+
+    <!--<footer class="container-fluid">
+        <ul>
+            <li><a href="mailto:maxence.cerisier56@gmail.com">Contactez Moi !</a></li>
+        </ul>
+        <p>Touts droits réservés</p>
+    </footer>-->
+</body>
+
+</html>
